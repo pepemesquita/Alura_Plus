@@ -1,6 +1,8 @@
 # Projeto Página Alura
 
 Este é um projeto bem simples desenvolvido em HTML e CSS para promover o Alura Plus e o Alura Língua como Combo Plus. A página é composta por diversas seções, cada uma destacando os diferenciais da plataforma Alura.
+![image](https://github.com/pepemesquita/Alura_Plus/assets/81587883/56e3eda9-7a77-4989-9e72-33c7b88fc4b2)
+
 
 ## Conteúdo da Página
 
