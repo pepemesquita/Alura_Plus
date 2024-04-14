@@ -180,21 +180,15 @@ body{
 .principal{
     background-image: url("img/Background.png");
     background-size: 100%;
-    font-size: 0.75em;
+    font-size: 0.5em;
     font-family: var(--fonte-principal);
     font-weight: 400;
 }
 
 .container{
     display: grid;
-    grid-template-rows: 50%;
+    grid-template-rows: 45%;
     grid-template-columns: 50% 50%;
-}
-
-.container__botao:hover{
-    background-color: transparent;
-    color: var(--cor-principal-branca);
-    border: solid 0.5px var(--cor-principal-branca);
 }
 
 .container__aviso{
@@ -202,11 +196,19 @@ body{
 }
 
 .container__titulo{
-    font-size: 1.75em;
+    font-size: 1.95em;
+}
+
+.descricao__titulo{
+    font-size: 2em;
+}
+
+.descricao__texto{
+    font-size: 0.7em;
 }
 
 .imagem__secundaria{
-    width: 90%;
+    width: 80%;
 }
 
 .secundario{
@@ -214,8 +216,12 @@ body{
    text-align: left;
 }
 
+.botao3{
+    font-size: 0.9em;
+}
+
 .dispositivos__titulo{
-    font-size: 2.75em;
+    font-size: 1.75em;
     margin-bottom: 0.7em;
 }
 
@@ -234,7 +240,6 @@ body{
 .desenvolvido{
     text-align: center;
     margin: 3em;
-    font-family: var(--fonte-principal);
 }
 
 .desenvolvido__logo{
@@ -249,19 +254,12 @@ body{
 }
 
 .desenvolvido__item a{
-    margin: 1em;
-    font-size: 0.8em;
-    font-weight: 400;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    justify-self: center;
+    font-size: 0.6em;
 }
 
 .desenvolvido__texto{
     margin-top: 1.5em;
-    font-size: 12px;
-    color: #C0C0C0;
+    font-size: 0.5em;
 }
 
 .desenvolvido__item a:hover {
